@@ -1,0 +1,13 @@
+/*
+Parikh Shivam
+ICSI 402
+Assignment 5
+UNIX ID: sp191221
+*/
+
+#define MINARGUMENTS 3 // minimum arguments for any flag
+#define ARCHIVEARGUMENT 2 // archive file name is at 3rd po
+#define ARRAYSIZE 255
+#define BUFFERSIZE 1000
+        
+        

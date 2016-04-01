@@ -1,0 +1,18 @@
+/*
+Parikh Shivam
+ICSI 402
+Assignment 5
+UNIX ID: sp191221
+*/
+
+void setUpDataBase(char *initialFileName);// sets up the database
+void processFunction(char *cmdName, char *line);// process the function
+int newc(int par1, int par2, char *schedule);// adds new class
+int newClassCheck(int courseNumber); // checks if class alreays exists
+void makeFinal(char *fileName); // makes a final file
+void printCourseInfo(); // prints course info
+struct studentNode* findStudent(char *studentName); // finds student
+void wdrw(char *studentName); // withrow from all classes
+int drpc(char *sName, int courseId); // drop one class
+struct courseNode* findCourse(int course); // finds course
+int addc(char *sName, int classNum); // adds student or class to student

@@ -1,0 +1,17 @@
+/*
+Parikh Shivam
+ICSI 402
+Assignment 5
+UNIX ID: sp191221
+*/
+
+     
+        
+#define COMMANDENTRY 5  //there must be 5 arguments to execute the program
+#define INITIALFILE 1 // initial file location
+#define FINALFILE 2 // final file location
+#define COMMANDFILE 3 // command file location
+#define LOGFILE 4 // log file location
+#define MAXSCHEDULE 21 // max schedule length
+#define MAXNAME 31 // max size for a name
+#define LINESIZE 250 // max line length

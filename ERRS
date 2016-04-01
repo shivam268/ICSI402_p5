@@ -1,0 +1,2 @@
+gcc -g -c p5a.c
+gcc p5a.o func1PA.o func2PA.o -o p5a

@@ -1,0 +1,21 @@
+        A Sample Input for Part (b) of Program V
+        ========================================
+
+The directory ~csi402/public/prog5 contains the following four text files.
+
+  (1) b_init_db.txt: File showing an initial database.
+
+  (2) b_commands.txt: File containing commands.
+
+  (3) b_final_db.txt: File showing the final database.
+
+  (4) b_log.txt: The log file produced by the client.
+
+These four files constitute a sample test case for Part (b) of this
+programming assignment.
+
+  You can use the example shown in the slides for this program 
+as an additional test case for Part (b).
+
+  Be sure to test your program thoroughly by creating additional
+test cases on your own.

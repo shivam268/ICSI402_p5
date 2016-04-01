@@ -1,0 +1,51 @@
+Information about sample inputs for Part (a) of Program V:
+----------------------------------------------------------
+
+  There are two sample inputs for Part (a). They are in the
+subdirectories a_test1 and a_test2 respectively.
+
+  (a) In the a_test1 subdirectory, the individual files 
+      are cons.h, const.h, count.c, count.o and arch1. 
+      The file arch1 is the output obtained by running p5a 
+      on cons.h, const.h, count.c, and count.o with the 
+      "-c" option.
+
+  (b) In the a_test2 subdirectory, the individual files 
+      are file1.c, file11.c, j1.c, j1.o and arch2. 
+      The file arch2 is the output obtained by running p5a on 
+      file1.c, file11.c, j1.c and j1.o with the "-c" option.
+
+-----------------------------------------------------------------
+IMPORTANT!!
+   Some of the files in the above directories (e.g. the two
+archive files arch1 and arch2) are BINARY files. They were
+created on itsunix. They may NOT be compatible with other 
+machines. 
+-----------------------------------------------------------------
+
+Here, we explain how to use the test case in a_test1.  Similar 
+comments apply to the test case in a_test2.
+
+  As mentioned above, the directory a_test1 contains the files
+are cons.h, const.h, count.c, count.o and arch1. 
+
+  With these files, when you run the command
+
+      p5a  -c  new_arch  cons.h  const.h  count.c  count.o 
+
+the binary file new_arch produced by your program should be
+identical to the file arch1. (You should use the "diff" command
+to compare the two files.)
+
+  To check whether your program extracts the files correctly from the
+archive, you are advised to create a new directory (say, temp) containing
+only the executable version (p5a) of your program and the file arch1.
+In that directory, when you run the command
+
+      p5a  -x  arch1
+
+your program should create the files cons.h, const.h, count.c and count.o 
+in the directory. These newly created files should be identical to
+the respective files cons.h, const.h,  count.c and count.o 
+in the other directory.  (Again, you should use "diff" to make sure 
+that there are no differences between the corresponding files.)

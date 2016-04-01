@@ -1,0 +1,23 @@
+   addc   Williams,Robin   416
+   addc   Hanks,Tom        403
+   addc   Kidman,Nicole    404
+   drpc   Gibson,Mel       404
+   drpc   Roberts,Julia    416
+   wdrw   Hanks,Tom        
+   tcre   Kidman,Nicole    
+   tcre   William,Robin   
+   newc   400   3   MWF--12:20-13:15
+   newc   421   0   Th--19:15-22:00
+   newc   421   2   Th--19:15-22:00
+   csch   400   MWF--15:30-16:25
+   csch   402   TTh--13:00-14:20
+   ccre   421   3
+   addc   Hanks,Tom   421
+   tcre   Hanks,Tom   
+   ccre   404   3
+   tcre   Kidman,Nicole    
+   gsch   402
+   gsch   415
+   gcre   404
+   gcre   422
+   addc   Theron,Charlize  404

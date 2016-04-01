@@ -1,0 +1,23 @@
+ 0   addc   1
+ 1   addc   1
+ 2   addc   0
+ 3   drpc   1
+ 4   drpc   0
+ 5   wdrw   1
+ 6   tcre   1   17
+ 7   tcre   0   -1
+ 8   newc   1
+ 9   newc   0
+10   newc   1
+11   csch   1
+12   csch   1
+13   ccre   1
+14   addc   1
+15   tcre   1   3
+16   ccre   1
+17   tcre   1   16
+18   gsch   1   TTh--13:00-14:20
+19   gsch   0   Error
+20   gcre   1   3
+21   gcre   0   -1
+22   addc   1
